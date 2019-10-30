@@ -23,8 +23,8 @@ class Graph{
 Graph::Graph(int V){
     this->V= V;
     adj = new list<int>[V];
-    
-    // bool tc[V][V];
+
+    // bool tc[4][4];
     // memset(tc,false,sizeof(tc));
 
     tc = new bool* [V]; 
